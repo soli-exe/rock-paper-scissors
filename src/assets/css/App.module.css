@@ -7,7 +7,7 @@
     grid-template-areas: 
       "header header"
       "logos-container logos-container"
-      "btn-container btn-container"; 
+      "footer footer"; 
     width: 100%; 
 }
 
@@ -19,6 +19,6 @@
     grid-area: logos-container;
 }
 
-.btnContainer {
-    grid-area: btn-container;
+.footer {
+    grid-area: footer;
 }
