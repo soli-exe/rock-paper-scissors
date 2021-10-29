@@ -1,0 +1,21 @@
+.logosContainer{
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+
+.logo {
+    width: 6rem;
+    height: 6rem;
+}
+
+.item {
+    margin: 0 1rem;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 1rem;
+    border: 15px solid #D68000;
+    border-radius: 50%;
+    box-shadow: 0 0 25px inset rgba(78, 78, 78, 0.9);
+}
