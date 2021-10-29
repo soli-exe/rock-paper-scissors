@@ -4,6 +4,7 @@ import style from './assets/css/App.module.css';
 
 import Header from './components/Header';
 import Logos from './components/Logos';
+import Footer from './components/Footer';
 
 class App extends Component {
   render() {
@@ -15,6 +16,9 @@ class App extends Component {
         <div className={style.logosContainer}>
           <Logos />
         </div>
+        <footer className={style.footer}>
+          <Footer />
+        </footer>
       </div>
     );
   }
