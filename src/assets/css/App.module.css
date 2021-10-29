@@ -15,10 +15,10 @@
     grid-area: header;
 }
 
-.logos-container {
+.logosContainer {
     grid-area: logos-container;
 }
 
-.btn-container {
+.btnContainer {
     grid-area: btn-container;
 }
