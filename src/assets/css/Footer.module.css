@@ -1,0 +1,17 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.430rem;
+    padding: .5rem 2rem;
+    border-radius: 8px;
+    background-color: #D68000;
+}
