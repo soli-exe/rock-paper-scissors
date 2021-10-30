@@ -11,3 +11,25 @@ body {
     background-color: #051D39;
 }
 
+.container {
+    display: grid;  
+    grid-template-rows: repeat(3, 1fr);
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "header header"
+      "logos-container logos-container"
+      "footer footer"; 
+    width: 100%; 
+}
+
+.header {
+    grid-area: header;
+}
+
+.logosContainer {
+    grid-area: logos-container;
+}
+
+.footer {
+    grid-area: footer;
+}
