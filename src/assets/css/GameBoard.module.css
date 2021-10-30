@@ -21,6 +21,9 @@
     border-radius: 50%;
     box-shadow: 0 0 25px inset rgba(78, 78, 78, 0.9);
 }
+.currentSelection:nth-child(2){
+    border-color: cornflowerblue;
+}
 
 .currentSelection img{
     width: 4rem;
