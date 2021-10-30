@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 import style from '../assets/css/Footer.module.css';
 
@@ -6,7 +7,7 @@ class Footer extends Component {
     render() {
         return (
             <footer className={style.footer}>
-                <a href='#' className={style.btn}>Start</a>
+                <Link to='/gamerps' className={style.btn}>Start</Link>
             </footer>
         );
     }
