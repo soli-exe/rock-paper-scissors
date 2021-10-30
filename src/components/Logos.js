@@ -11,14 +11,14 @@ class Logos extends Component {
         return (
             <div>
                 <ul className={style.logosContainer}>
-                    <li className={style.item}>
-                        <img className={style.logo} src={rockIcon} alt='rock icon' />
+                    <li onClick={this.props.clickHandler} id='Rock' className={this.props.isPlaying ? [style.clickableItem, style.item].join(" ") : style.item}>
+                        <img id='Rock' className={style.logo} src={rockIcon} alt='rock icon' />
                     </li>
-                    <li className={style.item}>
-                        <img className={style.logo} src={paperIcon} alt='paper icon' />
+                    <li onClick={this.props.clickHandler} id='Paper' className={this.props.isPlaying ? [style.clickableItem, style.item].join(" ") : style.item}>
+                        <img id='Paper' className={style.logo} src={paperIcon} alt='paper icon' />
                     </li>
-                    <li className={style.item}>
-                        <img className={style.logo} src={scissorsIcon} alt='scissors icon' />
+                    <li onClick={this.props.clickHandler} id='Scissors' className={this.props.isPlaying ? [style.clickableItem, style.item].join(" ") : style.item}>
+                        <img id='Scissors' className={style.logo} src={scissorsIcon} alt='scissors icon' />
                     </li>
                 </ul>
             </div>
