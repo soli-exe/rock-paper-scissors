@@ -22,6 +22,10 @@
     box-shadow: 0 0 25px inset rgba(78, 78, 78, 0.9);
 }
 
+.clickableItem{
+    cursor: pointer;
+}
+
 .logosContainer .item:nth-child(1){
     border-color: #D68000;
 }
