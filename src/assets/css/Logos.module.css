@@ -13,9 +13,21 @@
     margin: 0 1rem;
     display: flex;
     align-items: center;
+    justify-content: center;
+    width: fit-content;
     background-color: #fff;
     padding: 1rem;
-    border: 15px solid #D68000;
+    border: 15px solid;
     border-radius: 50%;
     box-shadow: 0 0 25px inset rgba(78, 78, 78, 0.9);
+}
+
+.logosContainer .item:nth-child(1){
+    border-color: #D68000;
+}
+.logosContainer .item:nth-child(2){
+    border-color: #9e29fd;
+}
+.logosContainer .item:nth-child(3){
+    border-color: #b3ff25;
 }
