@@ -29,3 +29,26 @@
     width: 4rem;
     height: 4rem;
 }
+
+@media only screen and (max-width: 768px){
+    .currentSelection img{
+        width: 2rem;
+        height: 2rem;
+    }
+    .currentSelection{
+        border-width: 10px;
+    }
+}
+
+@media only screen and (max-width: 568px){
+    .statusMsg{
+        font-size: 2rem;
+        margin: 0;
+    }
+    .currentSelection{
+        margin: 0 1rem;
+    }
+    .choiseStatusContainer{
+        margin-top: 1rem;
+    }
+}
