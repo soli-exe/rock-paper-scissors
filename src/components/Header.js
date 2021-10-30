@@ -10,6 +10,14 @@ class Header extends Component {
                     <li>Paper</li>
                     <li>Scissors</li>
                 </ul>
+                <div className={this.props.isPlaying ? style.scoreBoard : style.scoreBoardDisable }>
+                    <span className={style.userScore}>
+                        You: 0
+                    </span>
+                    <span className={style.opponentScore}>
+                        Opponent: 0
+                    </span>
+                </div>
             </header>
         );
     }
