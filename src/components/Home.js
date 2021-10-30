@@ -12,7 +12,7 @@ class Home extends Component {
               <Header isPlaying={false} />
             </header>
             <div className='logosContainer'>
-              <Logos />
+              <Logos isPlaying={false}/>
             </div>
             <footer className='footer'>
               <Footer />
