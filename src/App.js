@@ -1,24 +1,19 @@
 import React, { Component } from 'react';
-import './assets/css/Main.css';
-import style from './assets/css/App.module.css';
+import {Route,Switch} from 'react-router-dom';
 
-import Header from './components/Header';
-import Logos from './components/Logos';
-import Footer from './components/Footer';
+import './assets/css/Main.css';
+
+import Home from './components/Home';
+import GameBoard from './components/GameBoard';
 
 class App extends Component {
   render() {
     return (
-      <div className={style.container}>
-        <header className={style.header}>
-          <Header />
-        </header>
-        <div className={style.logosContainer}>
-          <Logos />
-        </div>
-        <footer className={style.footer}>
-          <Footer />
-        </footer>
+      <div>
+        <Switch>
+          <Route path='/gamerps' component={GameBoard} />
+          <Route path='/' component={Home} />
+        </Switch>
       </div>
     );
   }
